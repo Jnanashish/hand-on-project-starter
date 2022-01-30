@@ -90,22 +90,15 @@
   height: 46px;
 }
 .cards {
-  /* display: inline-grid;
-    grid:324px / auto auto auto auto;
-    grid-gap:60px;
-    margin-top:20px;
-    margin-left:45px; */
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row;
-    justify-content: space-between; */
-  background: #e5e5e5;
+  margin: 0px auto;
+  /* background: #e5e5e5; */
 }
 .card {
   flex: 1 0 21%;
   margin: 5px;
   height: 1000px;
-  background-color: #e5e5e5;
 }
 @media only screen and (max-width: 800px) {
   .cards {

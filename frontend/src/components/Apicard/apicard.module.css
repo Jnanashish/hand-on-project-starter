@@ -1,23 +1,19 @@
 .card {
-  /* position: relative; */
-  /* border:1px solid black; */
   flex-wrap: wrap;
   min-height: 300px;
-  padding: 10px;
+  padding: 10px 20px;
 
-  width: 280px;
+  width: 260px;
   float: left;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
+  background-color: #ffffff;
   margin: 24px;
   border-radius: 10px;
 }
 .image {
-  width: 283px;
-  height: 190px;
-  /* left: 103px;
-    top: 470px; */
-  border: 1px solid black;
-  /* background: url("../../assets/backgroundpic.png"); */
+  width: 260px;
+  /* height: 190px; */
+  /* border: 1px solid black; */
 }
 .title {
   width: 224px;

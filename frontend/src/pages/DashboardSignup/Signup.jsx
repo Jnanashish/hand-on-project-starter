@@ -5,7 +5,7 @@ import styles from './signup.module.css';
 import addicon from "../../Image/addlogo.svg"
 
 // impport components
-// import Form from '../../components/Form/Form';
+import Form from "../../components/SignupForm/Form"
 
 const Signup = () => {
     return (
@@ -19,7 +19,7 @@ const Signup = () => {
                     Your uploaded APIs will be displayed here once you login to your account
                 </p>
             </div>
-            <div className={styles.right} ></div>
+            <div className={styles.right} ><Form/></div>
         </div>
     )
 }
